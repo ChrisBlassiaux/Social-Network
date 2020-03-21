@@ -1,0 +1,235 @@
+
+ /*-------------------------
+            BASE
+ ------------------------*/
+
+/* Les styles de bases définis pour l'ensemble du site 
+
+Cette catégorie ne doit contenir ni classe, ni identifiant !
+Vous ne devez pas utiliser !important dans cette catégorie.
+*/
+
+
+
+
+    /* RESET */
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+     display: block;
+ }
+ body {
+     line-height: 1;
+ }
+ ol, ul {
+     list-style: none;
+ }
+ blockquote, q {
+     quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+     content: '';
+     content: none;
+ }
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+
+
+
+html, body {
+    box-sizing: border-box;
+}
+
+
+
+
+    /* BASE */
+
+body {
+    /* Box */
+
+    /* Border */
+
+    /* Background */
+    background-color: #000;
+    background-image: url('/assets/img/background.png');
+
+    /* Text */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+    /* Others */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*-------------------------
+            LAYOUT
+ ------------------------*/
+
+/* Le layout correspond aux sections majeures de votre site, 
+ce sont les grandes parties de votre template (le header, le footer, la sidebar, …). 
+
+Généralement, il s’agit de sélecteurs simples, descendants ou d’enfants, voire de classes ou d’identifiants.
+Vous ne devez pas utiliser !important dans cette catégorie.
+*/
+
+.l-header { 
+
+    /* Box */
+
+    /* Border */
+
+    /* Background */
+
+    /* Text */
+
+    /* Others */
+}
+
+.l-sidebar { 
+
+    /* Box */
+
+    /* Border */
+
+    /* Background */
+
+    /* Text */
+
+    /* Others */
+}
+
+
+
+
+
+
+
+
+
+ /*-------------------------
+            MODULE
+ ------------------------*/
+
+ /*Un module est une section mineure, un composant autonome de la page.
+ A titre d’exemple, les modules les plus classiques sont certainement la navigation et les boutons.
+ 
+Il faut penser modularité et réusabilité.
+! Rendre autonome le module !
+
+Vous pouvez utiliser des class (modificateurs)
+ Vous ne devez pas utiliser d’ID ou !important dans cette catégorie. */
+
+
+ .block-list { 
+
+     /* Box */
+
+    /* Border */
+
+    /* Background */
+    
+    /* Text */
+
+    /* Others */
+ }
+
+
+ .form { 
+
+    /* Box */
+
+   /* Border */
+
+   /* Background */
+   
+   /* Text */
+
+   /* Others */
+}
+
+
+
+
+
+
+
+
+ 
+ /*-------------------------
+            STATE
+ ------------------------*/
+
+
+ /* Il s’agit de classes qui viennent définir un état particulier dans lequel se trouvent vos éléments.
+Généralement, une règle qui se trouve dans cette catégorie correspond à une simple classe CSS.
+
+C’est la seule catégorie où l’usage de !important peut être toléré, voire recommandé. */
+
+
+ 
+ .is-block {
+
+    /* Box */
+
+    /* Border */
+
+    /* Background */
+    
+    /* Text */
+
+    /* Others */
+ }
+ 
+ .is-active { 
+
+    /* Box */
+
+   /* Border */
+
+   /* Background */
+   
+   /* Text */
+
+   /* Others */
+}
