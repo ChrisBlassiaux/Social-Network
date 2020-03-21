@@ -5,17 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Social Network</title>
 
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="app.css">
     </head>
     <body>
-        <header class="l-header">
-            <a href="#" class="topbar-logo">Social</a>
-            <nav class="topbar-nav">
+        <header class="topbar">
+            <a href="#" class="topbar__logo">Social</a>
+            <nav class="topbar__nav">
                 <a href="#">Accueil</a>
-                <a href="#" class="is-active">Historique</a>
+                <a href="#" class="topbar__nav--active">Historique</a>
                 <a href="#">Evènements</a>
                 <a href="#">Contact</a>
             </nav>
         </header>
+        <div class="container">
+            <nav class="sidebar">
+                <a href="#" class="sidebar__home sidebar--active">Fil d'actualité</a>
+                <a href="#" class="sidebar__messages">Messages</a>
+                <a href="#" class="sidebar__events">Evènements</a>
+                <a href="#" class="sidebar__groupes">Groupes</a>
+                <a href="#" class="sidebar__friends">Amis</a>
+            </nav>
+            <main class="main">
+                <div class="card">
+                    Mon Pseudo
+                </div>
+            </main>
+            <aside class="aside">
+
+            </aside>
+        </div>
     </body>
 </html>
